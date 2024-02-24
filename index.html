@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section id="output">
+      <div id="expression"></div>
+      <div id="result"></div>
+    </section>
+    <section id="input">
+      <button class="btn light" data-action="clear" data-value="C">C</button>
+      <button class="btn light" data-action="negate" data-value="C">+/-</button>
+      <button class="btn light" data-action="mod" data-value="%">%</button>
+      <button class="btn blue" data-action="division" data-value="/">/</button>
+      <button class="btn dark" data-action="number" data-value="7">7</button>
+      <button class="btn dark" data-action="number" data-value="8">8</button>
+      <button class="btn dark" data-action="number" data-value="9">9</button>
+      <button class="btn blue" data-action="multiplication" data-value="*">
+        &times;
+      </button>
+      <button class="btn dark" data-action="number" data-value="4">4</button>
+      <button class="btn dark" data-action="number" data-value="5">5</button>
+      <button class="btn dark" data-action="number" data-value="6">6</button>
+      <button class="btn blue" data-action="subtraction" data-value="-">
+        -
+      </button>
+      <button class="btn dark" data-action="number" data-value="1">1</button>
+      <button class="btn dark" data-action="number" data-value="2">2</button>
+      <button class="btn dark" data-action="number" data-value="3">3</button>
+      <button class="btn blue" data-action="addition" data-value="+">+</button>
+      <button class="btn dark" data-action="decimal" data-value=".">.</button>
+      <button class="btn dark" data-action="number" data-value="0">0</button>
+      <button class="btn dark" data-action="backspace">&#9003;</button>
+      <button class="btn blue" data-action="submit" data-value="=">=</button>
+    </section>
+  </body>
+</html>
